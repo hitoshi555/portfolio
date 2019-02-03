@@ -1,0 +1,83 @@
+@media(max-width:1200px)  {
+  .contentR{
+    height: 1100px;
+  }
+  .contentB{
+    height: 1600px;
+  }
+
+  .contentR-left{
+    margin-left: 15%;
+  }
+
+  .twitter-icon{
+    margin-left: 15%;
+    margin-bottom: 50px;
+  }
+
+  .contentB-left{
+    float: none;
+  }
+}
+
+@media (max-width:670px) {
+  h1{
+    font-size: 32px;
+  }
+
+  th , td{
+    font-size: 15px;
+  }
+
+  .contentR{
+    width: 100%;
+    margin: 0;
+    height: 1100px;
+  }
+  .contentR-all{
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-left: 0;
+  }
+
+  img{
+    display: block;
+    margin: auto;
+  }
+
+  .contentR-left{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .contentsR-right{
+    margin-left: 20px;
+  }
+
+  .contentB{
+    height: 500px;
+  }
+
+  .contentB-right{
+    display: none;
+
+  }
+
+  .contentB-all{
+    margin-left: 0;
+  }
+
+  .contentB-left{
+    text-align: center;
+  }
+}
+
+@media (max-width:400px) {
+  .contentR-left{
+    margin-left: 0;
+  }
+
+  .twitter-icon{
+    margin: 0;
+  }
+}
